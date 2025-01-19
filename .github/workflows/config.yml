@@ -1,0 +1,32 @@
+title: "🐧 Linux-Mirror: System Images Repository"
+description: "A centralized repository of Linux distribution installation files"
+author: 
+  name: "Linux-Mirror Team"
+
+# Theme settings
+theme: jekyll-theme-minimal
+markdown: kramdown
+
+# Custom site settings
+repository_files:
+  - name: Ubuntu 22.04 Desktop
+    file: ubuntu-22.04-desktop-amd64.iso
+    size: "2.5 GB"
+    date: "2024-01-15"
+
+  - name: Debian 11 Netinstall
+    file: debian-11-netinst-amd64.iso
+    size: "350 MB"
+    date: "2024-01-10"
+
+  - name: Fedora 37 Live Desktop
+    file: fedora-37-live-desktop.iso
+    size: "1.8 GB"
+    date: "2024-01-20"
+
+  - name: Arch Linux 2023
+    file: arch-linux-2023-x86_64.iso
+    size: "700 MB"
+    date: "2024-01-05"
+
+last_updated: "2025-01-19"
