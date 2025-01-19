@@ -1,0 +1,27 @@
+# _config.yml for GitHub Pages
+title: "🐧 Linux-Mirror: System Images Repository"
+description: >
+  A centralized repository of Linux distribution installation files for system administrators, developers, and IT professionals.
+theme: minima
+markdown: kramdown
+plugins:
+  - jekyll-sitemap
+
+# Navigation settings
+permalink: pretty
+
+# Exclude unnecessary files from the site
+exclude:
+  - README.md
+  - LICENSE
+
+# Site settings
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
+
+# Deployment settings
+url: "https://<your-github-username>.github.io/<repository-name>"
+baseurl: "/"
